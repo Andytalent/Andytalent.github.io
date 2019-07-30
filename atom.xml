@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>天才小站</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-07-29T08:31:20.552Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Andy Cai</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python笔记</title>
+    <link href="http://yoursite.com/2019/07/27/python%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2019/07/27/python笔记/</id>
+    <published>2019-07-27T02:46:38.000Z</published>
+    <updated>2019-07-29T08:31:20.552Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在大二这年的暑假，我开始自学python，教材是b站的视频《Python教程_600集Python从入门到精通教程（懂中文就能学会）》（具体视频链接放在附录中），这篇博客是对我学到的内容的归纳和总结，以及记录一些我在学习Python中所遇到的问题及解决办法。因为开始写这个博客的时间比较晚，所以前面三百个视频的学习经过以及遇到的问题就不记录了，这篇笔记是从第305个视频开始的，准备做个名片管理系统，并且我想笔记将会以日记方式呈现。</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>2019.7.29<br>1、三种高级数据类型，列表、元组、字典，想通过index/key取值时用的是[],其他的都会报错 ，一定要注意，这个错误我检查了好久<br>2、\t在python中是一个非常常用的转义字符，横向制表符，我觉得就是相当于几个空格<br>3、#!：shebang。将其添加在python文件的第一行，后面跟上python解释器的路径，这样该文件就变成可执行文件了。要注意的是在Linux系统中想要将其变成可执行文件还要修改权限。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ chmod +x xxxxx.py</span><br></pre></td></tr></table></figure><h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><p><a href="https://www.bilibili.com/video/av14184325/" target="_blank" rel="noopener">https://www.bilibili.com/video/av14184325/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在大二这年的暑假，我开始自学python，教材是b站的视频《Python教程_600集Python从入门到精通教程（懂中文就能学会）》（具体
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇博客文章</title>
+    <link href="http://yoursite.com/2019/07/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
+    <id>http://yoursite.com/2019/07/27/我的第一篇博客文章/</id>
+    <published>2019-07-27T01:18:37.000Z</published>
+    <updated>2019-07-27T01:22:05.700Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/07/27/hello-world/"/>
+    <id>http://yoursite.com/2019/07/27/hello-world/</id>
+    <published>2019-07-27T01:14:00.982Z</published>
+    <updated>2019-07-27T01:14:00.983Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
